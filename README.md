@@ -30,7 +30,7 @@ Usage:
 Run the application with:
 streamlit run entrypoint.py or python main.py
 
-Dependencies:
+Dependencies:           
 Package        |      Purpose             
 streamlit      |      Web interface             
 pandas/numpy   |      Data handling             
