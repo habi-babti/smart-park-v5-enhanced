@@ -1,40 +1,30 @@
-# smart-park-v5
+# Smart Park v5 🚗💡
 
+An intelligent parking management system with machine learning recommendations, ANPR (Automatic Number Plate Recognition), and real-time notifications.
 
-Key dependencies:
+## Key Features
+- Web interface built with Streamlit
+- ML-based parking spot recommendations (scikit-learn)
+- ANPR using EasyOCR and Ultralytics
+- Real-time visualizations with Plotly
+- Secure authentication with Passlib
 
-streamlit for the web interface
+## Installation
 
-pandas and numpy for data handling
+1. **Extract** the project zip file
+2. **Recommended**: Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-scikit-learn for the ML recommendation system
+Install dependencies:
 
-easyocr and ultralytics for ANPR functionality
-
-opencv for image processing
-
-twilio for SMS notifications (not working)
-
-plotly for visualizations
-
-passlib for password hashing
-
-Note: You may need to adjust versions based on your specific Python environment. For GPU acceleration, you might want to add CUDA-compatible versions of PyTorch if needed.
--------------------------------------------------------------------
-Extract the zip file (  ) in the same folder
-
-
-Better to install on "venv"
-
-
-To install these dependencies, run:
-
-
+bash
 pip install -r requirements.txt
 
 
-To use, run:
+Usage:
 
+Run the application with:
 
-python run main.py or stremlit run entrypoint.py
--------------------------------------------------------------------
+streamlit run entrypoint.py or python main.py
