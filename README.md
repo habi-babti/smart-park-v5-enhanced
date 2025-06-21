@@ -31,15 +31,15 @@ Run the application with:
 streamlit run entrypoint.py or python main.py
 
 Dependencies:
-Package        |      Purpose
-streamlit      |      Web interface
-pandas/numpy   |      Data handling
-scikit-learn   |      ML recommendations
-easyocr	      |      ANPR functionality
-ultralytics    |      Object detection
-opencv	      |      Image processing
-plotly	      |      Visualizations
-passlib        |      Password hashing
+Package        |      Purpose             
+streamlit      |      Web interface             
+pandas/numpy   |      Data handling             
+scikit-learn   |      ML recommendations             
+easyocr	       |      ANPR functionality             
+ultralytics    |      Object detection             
+opencv	       |      Image processing             
+plotly	       |      Visualizations             
+passlib        |      Password hashing             
 
 Note: For GPU acceleration, consider installing CUDA-compatible versions of PyTorch (ask ChatGPT).
 
