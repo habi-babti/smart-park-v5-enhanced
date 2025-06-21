@@ -25,3 +25,7 @@ To install these dependencies, run:
 
 
 pip install -r requirements.txt
+
+To use, run:
+
+python run main.py or stremlit run entrypoint.py
